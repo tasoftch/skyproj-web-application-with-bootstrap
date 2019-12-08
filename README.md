@@ -1,10 +1,11 @@
 # Skyline Core Application
 _Core Content Management System_
 
-This package provides a skeleton template configuration to design a web application using Skyline CMS by TASoft Applications.
+This package provides a skeleton template configuration to design a web application using Skyline CMS by TASoft Applications.  
+It also includes the Bootstrap CSS Framework.
 ## Usage
 ````bin
-$ composer create-project skyline-project/web-application -sdev ./my-skyline-application
+$ composer create-project skyline-project/web-application-with-bootstrap -sdev ./my-skyline-application
 ````
 
 This will install everything that Skyline CMS needs to deliver a compiled web application to clients.  
