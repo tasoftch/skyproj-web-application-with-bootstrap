@@ -1,0 +1,84 @@
+/*!
+ * Copyright (c) 2019 TASoft Applications, Th. Abplanalp <info@tasoft.ch>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+@import "../../vendor/twbs/bootstrap/scss/functions";
+
+@import "variables";
+@import "../../vendor/twbs/bootstrap/scss/variables";
+
+@import "../../vendor/twbs/bootstrap/scss/mixins";
+@import "../../vendor/twbs/bootstrap/scss/root";
+@import "../../vendor/twbs/bootstrap/scss/reboot";
+@import "../../vendor/twbs/bootstrap/scss/type";
+@import "../../vendor/twbs/bootstrap/scss/images";
+@import "../../vendor/twbs/bootstrap/scss/code";
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@import "../../vendor/twbs/bootstrap/scss/mixins/breakpoints";
+@import "../../vendor/twbs/bootstrap/scss/mixins/grid-framework";
+@import "../../vendor/twbs/bootstrap/scss/mixins/grid";
+
+@import "../../vendor/twbs/bootstrap/scss/grid";
+@import "../../vendor/twbs/bootstrap/scss/utilities/display";
+@import "../../vendor/twbs/bootstrap/scss/utilities/flex";
+@import "../../vendor/twbs/bootstrap/scss/utilities/spacing";
+
+@import "../../vendor/twbs/bootstrap/scss/tables";
+@import "../../vendor/twbs/bootstrap/scss/forms";
+@import "../../vendor/twbs/bootstrap/scss/buttons";
+@import "../../vendor/twbs/bootstrap/scss/transitions";
+@import "../../vendor/twbs/bootstrap/scss/dropdown";
+@import "../../vendor/twbs/bootstrap/scss/button-group";
+@import "../../vendor/twbs/bootstrap/scss/input-group";
+@import "../../vendor/twbs/bootstrap/scss/custom-forms";
+@import "../../vendor/twbs/bootstrap/scss/nav";
+@import "../../vendor/twbs/bootstrap/scss/navbar";
+@import "../../vendor/twbs/bootstrap/scss/card";
+@import "../../vendor/twbs/bootstrap/scss/breadcrumb";
+@import "../../vendor/twbs/bootstrap/scss/pagination";
+@import "../../vendor/twbs/bootstrap/scss/badge";
+@import "../../vendor/twbs/bootstrap/scss/jumbotron";
+@import "../../vendor/twbs/bootstrap/scss/alert";
+@import "../../vendor/twbs/bootstrap/scss/progress";
+@import "../../vendor/twbs/bootstrap/scss/media";
+@import "../../vendor/twbs/bootstrap/scss/list-group";
+@import "../../vendor/twbs/bootstrap/scss/close";
+@import "../../vendor/twbs/bootstrap/scss/toasts";
+@import "../../vendor/twbs/bootstrap/scss/modal";
+@import "../../vendor/twbs/bootstrap/scss/tooltip";
+@import "../../vendor/twbs/bootstrap/scss/popover";
+@import "../../vendor/twbs/bootstrap/scss/carousel";
+@import "../../vendor/twbs/bootstrap/scss/spinners";
+@import "../../vendor/twbs/bootstrap/scss/utilities";
+@import "../../vendor/twbs/bootstrap/scss/print";
+
+@import "application";
