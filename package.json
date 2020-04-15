@@ -6,8 +6,7 @@
     "v:patch": "npm version --no-git-tag-version patch",
     "build:css": "node-sass --output-style compressed --precision 6 SkylineAppData/Style/main.scss SkylineAppData/Components/css/main.min.css"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Thomas Abplanalp",
   "license": "BSD-3-Clause",
   "babel": {

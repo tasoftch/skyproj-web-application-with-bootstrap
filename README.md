@@ -7,13 +7,26 @@ It also includes the Bootstrap CSS Framework.
 ````bin
 $ composer create-project skyline-project/web-application-with-bootstrap -sdev ./my-skyline-application
 ````
-
 This will install everything that Skyline CMS needs to deliver a compiled web application to clients.  
 Run your project local just type:
 ````bin
 $ cd ./my-skyline-application
-$ php -S localhost:5555 -t ./Public ./Public/skyline.php
+$ php -S localhost:8080 Public/skyline.php
 ````
+
+To compile the bootstrap CSS Framework, you need to have npm installed.  
+Then simply type
+````bin
+$ cd ./my-skyline-application
+$ npm install
+$ npm run build:css
+````
+or as a startup:
+````bin
+$ cd ./my-skyline-application
+$ composer startup
+````
+The ```composer startup``` command compiles everything and finally launches a default webserver on port 8080.
 
 #### Compilation
 Skyline CMS runs from a compiled application to increase performance and while development detect possible bugs.  
