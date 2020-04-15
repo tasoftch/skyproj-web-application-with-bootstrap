@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd74687d-4ec4-488e-9a97-fc8dd896d504" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Public/skyline.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,11 @@
       <recent name="$PROJECT_DIR$/SkylineAppData/Classes/Controller" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Build CSS Style">
+  <component name="RunManager" selected="PHP Built-in Web Server.Test Web Server">
+    <configuration name="Test Web Server" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080" router_script="$PROJECT_DIR$/Public/skyline.php" use_router_script="true">
+      <CommandLine workingDirectory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Compile Development" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/vendor/bin/skyline.phar" scriptParameters="compile --project dev-project.xml --dev --no-interaction --zero">
       <method v="2" />
     </configuration>
@@ -128,6 +132,7 @@
     </configuration>
     <list>
       <item itemvalue="npm.Build CSS Style" />
+      <item itemvalue="PHP Built-in Web Server.Test Web Server" />
       <item itemvalue="PHP Script.Compile Development" />
       <item itemvalue="PHP Script.Compile Production" />
     </list>
@@ -151,7 +156,8 @@
       <workItem from="1575820742083" duration="1455000" />
       <workItem from="1586964460639" duration="291000" />
       <workItem from="1586966313444" duration="100000" />
-      <workItem from="1586969398994" duration="7000" />
+      <workItem from="1586969398994" duration="29000" />
+      <workItem from="1586969707642" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1563627554042</created>
@@ -258,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586966351547</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Initial Commit">
+      <created>1586969413786</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586969413786</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,18 +286,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="766" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586964716480">
+    <state x="766" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586969805689">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
-    <state x="766" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1413@0.23.2560.1413" timestamp="1586964716480" />
-    <state x="796" y="302" key="CommitChangelistDialog2" timestamp="1586966351142">
+    <state x="766" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1413@0.23.2560.1413" timestamp="1586969805689" />
+    <state x="796" y="302" key="CommitChangelistDialog2" timestamp="1586969413083">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
-    <state x="796" y="302" key="CommitChangelistDialog2/0.23.2560.1413@0.23.2560.1413" timestamp="1586966351142" />
-    <state x="902" y="473" key="Vcs.Push.Dialog.v2" timestamp="1586966355873">
+    <state x="796" y="302" key="CommitChangelistDialog2/0.23.2560.1413@0.23.2560.1413" timestamp="1586969413083" />
+    <state x="902" y="473" key="Vcs.Push.Dialog.v2" timestamp="1586969417061">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
-    <state x="902" y="473" key="Vcs.Push.Dialog.v2/0.23.2560.1413@0.23.2560.1413" timestamp="1586966355873" />
+    <state x="902" y="473" key="Vcs.Push.Dialog.v2/0.23.2560.1413@0.23.2560.1413" timestamp="1586969417061" />
   </component>
   <component name="masterDetails">
     <states>
