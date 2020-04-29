@@ -16,12 +16,11 @@
   },
   "require": {
     "php": "^7.2",
-    "skyline/core-application": "dev-master",
-    "skyline/html-render": "dev-master"
+    "skyline/cms": "^0.8"
   },
   "require-dev": {
-    "skyline/compiler": "dev-master",
-    "skyline/binary": "dev-master",
+    "skyline/compiler": "^0.8",
+    "skyline/binary": "^0.8",
     "twbs/bootstrap": "^4.3"
   },
   "scripts": {

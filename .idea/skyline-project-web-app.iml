@@ -6,6 +6,14 @@
       <sourceFolder url="file://$MODULE_DIR$/SkylineAppData/Classes" isTestSource="false" packagePrefix="Application\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/skyline/binary" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/skyline/cms" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/skyline/component-bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/skyline/component-jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/skyline/exposed-symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/skyline/html-form" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/skyline/navigation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/tasoft/menu-service" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/tasoft/mime" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/tasoft/php-string-parser" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/twbs/bootstrap" />

@@ -35,25 +35,28 @@ This project file will be loaded by the compiler to preprocess the application
         <!--
         This section tells the compiler where it should look for source files
         -->
-        <dir type="config">vendor/skyline</dir>
+        <dir type="config">vendor</dir>
         <dir type="uconfig">SkylineAppData/Config</dir>      <!-- Your configuration files -->
         <dir type="vendor">vendor</dir>                     <!-- vendor packages -->
         <dir type="classes">SkylineAppData/Classes</dir>
-        <dir type="classes">vendor/skyline</dir>
-        <dir type="templates">vendor/skyline</dir>
+        <dir type="classes">vendor</dir>
         <dir type="templates">SkylineAppData/Templates</dir>
+        <dir type="templates">vendor</dir>
+        <!-- If available, include modules -->
+        <dir type="modules">SkylineAppData/Modules</dir>
+        <dir type="modules">vendor</dir>
     </searchPaths>
     <CORS>
         <!--
         Telling the application which hosts are accepted in this application enables to protect resources against hotlinking.
         -->
-        <host name="www.example.org" />
-        <host name="admin.example.org" />
+        <host name="www.example.org" label="Main" />
+        <host name="admin.example.org" label="Admin" />
         <host name="example.org" />
         <!--
         If you use the skyline API package, you should declare the cross origin resource share behaviour
         -->
-        <host name="api.example.org">
+        <host name="api.example.org" label="API">
             <accepts>*.example.org</accepts>
         </host>
     </CORS>
