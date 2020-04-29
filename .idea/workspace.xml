@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd74687d-4ec4-488e-9a97-fc8dd896d504" name="Default Changelist" comment="" />
+    <list default="true" id="bd74687d-4ec4-488e-9a97-fc8dd896d504" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SkylineAppData/Templates/Contents/submenu1.view.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SkylineAppData/Templates/Contents/submenu2.view.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SkylineAppData/Templates/Contents/submenu3.view.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +184,9 @@
       <workItem from="1586970103884" duration="1509000" />
       <workItem from="1588171378735" duration="285000" />
       <workItem from="1588171712137" duration="30000" />
+      <workItem from="1588176392610" duration="37000" />
+      <workItem from="1588176449537" duration="10000" />
+      <workItem from="1588177223594" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1563627554042</created>
@@ -319,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588171731704</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Initial Commit">
+      <created>1588176425612</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1588176425612</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,10 +354,10 @@
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
     <state x="766" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1413@0.23.2560.1413" timestamp="1586971527697" />
-    <state x="796" y="302" key="CommitChangelistDialog2" timestamp="1588171731259">
+    <state x="796" y="302" key="CommitChangelistDialog2" timestamp="1588176425048">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
-    <state x="796" y="302" key="CommitChangelistDialog2/0.23.2560.1413@0.23.2560.1413" timestamp="1588171731259" />
+    <state x="796" y="302" key="CommitChangelistDialog2/0.23.2560.1413@0.23.2560.1413" timestamp="1588176425048" />
     <state width="2518" height="400" key="GridCell.Tab.0.bottom" timestamp="1586971615248">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
@@ -358,10 +374,10 @@
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
     <state width="2518" height="400" key="GridCell.Tab.0.right/0.23.2560.1413@0.23.2560.1413" timestamp="1586971615247" />
-    <state x="902" y="473" key="Vcs.Push.Dialog.v2" timestamp="1588171735532">
+    <state x="902" y="473" key="Vcs.Push.Dialog.v2" timestamp="1588176452265">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
-    <state x="902" y="473" key="Vcs.Push.Dialog.v2/0.23.2560.1413@0.23.2560.1413" timestamp="1588171735532" />
+    <state x="902" y="473" key="Vcs.Push.Dialog.v2/0.23.2560.1413@0.23.2560.1413" timestamp="1588176452265" />
     <state x="945" y="345" width="670" height="675" key="run.anything.popup" timestamp="1586970924414">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>

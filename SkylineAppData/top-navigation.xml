@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<navigation version="0.6" name="topNav">
+    <css>
+        <class>navbar-dark</class>
+        <class>bg-dark</class>
+        <class>sticky-top</class>
+    </css>
+    <brand name="&lt;span class='text-success'&gt;Your&lt;/span&gt; Application" URL="/" icon="/Public/img/logo.png" />
+    <item id="item-menu-and-submenu">
+        <title>Menu + Submenu</title>
+        <submenu>
+            <item id="u">
+                <title>Submenu 1</title>
+                <action type="rel">/submenu-1</action>
+            </item>
+            <item id="2">
+                <title>Submenu 2 + 3</title>
+                <action type="rel" regex="%^/?submenu-(2|3|4)%i">/submenu-2</action>
+            </item>
+        </submenu>
+        <action type="rel">/submenu-1</action>
+    </item>
+    <item id="m2">
+        <title>404 Error</title>
+        <action type="rel">/page-not-found</action>
+    </item>
+</navigation>
