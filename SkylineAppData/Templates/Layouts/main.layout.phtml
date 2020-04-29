@@ -1,24 +1,49 @@
 <?php
 /**
- * @title Congratulations!
- * @description Here goes your web application
+ * @title Your Application
+ * @description The fallback description of your application if the content template does not specify one.
+ * @require jQuery
  * @require Application
  */
 
+use Skyline\Navigation\NavigationService;
 use Skyline\Render\Context\DefaultRenderContext;
 
 /**
  * @var DefaultRenderContext $this
  */
 
-?><header>
-    <h1>Congratulations!</h1>
-</header>
-<main>
-    <?php
-    $this->renderSubTemplate("Content");
-    ?>
-</main>
-<footer>
-    © by your company
-</footer>
+?><div class="container-fluid main-container p-0">
+	<header class="m-0 sticky-fixed">
+		<?php
+		/** @var NavigationService $nv */
+		$nv = $this->mainNavigation;
+
+		$topNav = $nv->getNavigationBar("top-navigation");
+		$nv->renderNavigation($topNav);
+		?>
+		<div class="container" id="my-header">
+			<h2 class="mb-0"><span class="text-success">Your</span> Application</h2>
+			<p>
+				The slogan of your application
+			</p>
+		</div>
+	</header>
+
+	<div class="container p-0 p-sm-1">
+		<main class="p-3 sticky-flexible">
+			<?php
+			$this->renderSubTemplate("Content");
+			?>
+		</main>
+	</div>
+
+	<footer class="sticky-bottom m-0 mx-sm-3 mb-sm-3">
+		<div class="container py-1">
+			© 2020 Your Company
+			<p class="text-muted font-italic" style="font-size: 80%">
+				Powered by <a href="https://www.skyline-cms.ch" target="_blank">Skyline CMS</a>. All rights reserved.
+			</p>
+		</div>
+	</footer>
+</div>

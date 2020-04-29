@@ -34,6 +34,7 @@
 
 use Skyline\Kernel\Config\MainKernelConfig;
 use Skyline\Kernel\Service\Error\HTMLProductionErrorHandlerService;
+use Skyline\Navigation\NavigationService;
 use TASoft\Service\Config\AbstractFileConfiguration;
 
 return [
@@ -50,5 +51,13 @@ return [
         "productionErrorHandler" => [
             AbstractFileConfiguration::SERVICE_CLASS => HTMLProductionErrorHandlerService::class
         ],
+		"mainNavigation" => [
+			AbstractFileConfiguration::SERVICE_CLASS => NavigationService::class,
+			AbstractFileConfiguration::SERVICE_INIT_ARGUMENTS => [
+				'navFiles' => [
+					'$(/)/top-navigation.xml'
+				]
+			]
+		],
     ]
 ];
