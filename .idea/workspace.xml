@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd74687d-4ec4-488e-9a97-fc8dd896d504" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/skyline-project-web-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skyline-project-web-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dev-project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/live-project.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd74687d-4ec4-488e-9a97-fc8dd896d504" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +176,7 @@
       <workItem from="1586969398994" duration="29000" />
       <workItem from="1586969707642" duration="121000" />
       <workItem from="1586970103884" duration="1509000" />
-      <workItem from="1588171378735" duration="259000" />
+      <workItem from="1588171378735" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1563627554042</created>
@@ -311,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586971600897</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Initial Commit">
+      <created>1588171652496</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588171652496</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,10 +330,10 @@
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
     <state x="766" y="395" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1413@0.23.2560.1413" timestamp="1586971527697" />
-    <state x="796" y="302" key="CommitChangelistDialog2" timestamp="1586971600349">
+    <state x="796" y="302" key="CommitChangelistDialog2" timestamp="1588171652096">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
-    <state x="796" y="302" key="CommitChangelistDialog2/0.23.2560.1413@0.23.2560.1413" timestamp="1586971600349" />
+    <state x="796" y="302" key="CommitChangelistDialog2/0.23.2560.1413@0.23.2560.1413" timestamp="1588171652096" />
     <state width="2518" height="400" key="GridCell.Tab.0.bottom" timestamp="1586971615248">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
@@ -350,10 +350,10 @@
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
     <state width="2518" height="400" key="GridCell.Tab.0.right/0.23.2560.1413@0.23.2560.1413" timestamp="1586971615247" />
-    <state x="902" y="473" key="Vcs.Push.Dialog.v2" timestamp="1586971604894">
+    <state x="902" y="473" key="Vcs.Push.Dialog.v2" timestamp="1588171656232">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
-    <state x="902" y="473" key="Vcs.Push.Dialog.v2/0.23.2560.1413@0.23.2560.1413" timestamp="1586971604894" />
+    <state x="902" y="473" key="Vcs.Push.Dialog.v2/0.23.2560.1413@0.23.2560.1413" timestamp="1588171656232" />
     <state x="945" y="345" width="670" height="675" key="run.anything.popup" timestamp="1586970924414">
       <screen x="0" y="23" width="2560" height="1413" />
     </state>
