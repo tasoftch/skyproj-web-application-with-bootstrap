@@ -50,15 +50,12 @@ This project file will be loaded by the compiler to preprocess the application
         <!--
         Telling the application which hosts are accepted in this application enables to protect resources against hotlinking.
         -->
-        <host name="www.example.dev" label="Main"/>
-        <host name="admin.example.dev" label="Admin" />
-        <host name="example.dev" />
+        <host name="localhost:8080" label="Main"/>
+        <host name="localhost:8080/admin" label="Admin" />
         <!--
         If you use the skyline API package, you should declare the cross origin resource share behaviour
         -->
-        <host name="api.example.dev" label="API">
-            <accepts>*.example.dev</accepts>
-        </host>
+        <host name="localhost:8080/api" label="API" />
     </CORS>
     <context class="Skyline\Compiler\CompilerContext">
         <!--
